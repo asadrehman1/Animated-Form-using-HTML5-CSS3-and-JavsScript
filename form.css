@@ -13,7 +13,7 @@
     position: relative;
     width:320px;
     height:480px;
-    box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.26);
+     box-shadow: 0 0 50px 10px #332b92;
     background-image:linear-gradient(rgba(0,0,150,0.75),rgba(0,0,150,0.75)) ,url('bg.jpg');
     background-position: center;
     background-size: cover;
