@@ -1,0 +1,94 @@
+.container{
+    width:100%;
+    height:100vh;
+    background-color: rgb(187,187,245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+}
+.card{
+    position: relative;
+    width:320px;
+    height:480px;
+    box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.26);
+    background-image:linear-gradient(rgba(0,0,150,0.75),rgba(0,0,150,0.75)) ,url('bg.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in;   
+}
+.front{
+    width:100%;
+    height:100%;
+    backface-visibility: hidden;
+    position: absolute;
+}
+.back{
+    width:100%;
+    height:100%;
+    backface-visibility: hidden;
+    position: absolute;
+    transform: rotateY(180deg);
+}
+h1{
+    text-align: center;
+    font-size: 2em;
+}
+input{
+    padding: 7px 5px;
+    border-radius: 20px;
+    background: transparent;
+    margin: 10px 0;
+    text-align: center;
+    color:white;
+    border:2px solid white;
+    width:200px;
+    text-decoration: none;
+}
+#email{
+    color:white
+}
+button{
+    background: transparent;
+    border:1px solid white;
+    border-radius: 20px;
+    padding: 7px 5px;
+    width:214px;
+    margin: 40px;
+    cursor: pointer;
+    color:white;
+}
+#btn{
+    margin:25px 0
+}
+#check{
+    
+    width:20px
+}
+a{
+    text-decoration: underline;
+    color: white;
+    font-weight: 100;
+    font-size: 12px;
+}
+::placeholder{
+    color:white
+}
+#submit-btn{
+  margin-bottom: -20px;
+}
+span{
+    font-weight: 100;
+    font-size: 12px;
+    margin-right: 120px;
+}
+#submit-btn .btn{
+    position:relative;
+}
+#submit-btn .btn::after{
+    content: 'hello';
+}
