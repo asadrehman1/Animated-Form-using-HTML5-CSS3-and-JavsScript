@@ -48,6 +48,7 @@ input{
     border:2px solid white;
     width:200px;
     text-decoration: none;
+    outline: none;
 }
 #email{
     color:white
